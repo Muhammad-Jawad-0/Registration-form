@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Form</title>
+</head>
+<body>
+    <center>
+    <table>
+        <style>table, th,tr, td {
+            border: 1px solid;
+          }</style>
+        <thead>
+            <tr>
+                <td> NAME </td>
+                <td> ROLL </td>
+                <td> COURSE </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Muhammad Jawad</td>
+                <td> 126981 </td>
+                <td> Web&Mobile App Development </td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+    <form action="#">
+        <center>
+            <img src="https://i.pinimg.com/736x/9c/9a/ef/9c9aefcf49d7f51f9be204b650e7362e.jpg" alt="saylani Welfare logo" width="40%">
+        <h1>Saylani Mass Training & Job Creation Program </h1>
+        <h2> Registration / Entry Form </h2>
+        </center> 
+        <hr>
+        <p> Select Your course*: </p required>
+        <select name="course" id="course" required>
+            <option value="#">--Select your course--</option required>
+            <option value="Graphic Design">Graphic design </option required>
+            <option value="Web & Mobile App Development">Web & Mobile App Development </option required>
+            <option value="Amazon"> Amazon </option required>
+            <option value="Flutter"> Flutter </option required>
+            <option value="WEb Designing"> Web Designing </option required>
+            <option value="Artificial Intelligence"> Artificial Intelligence </option required>
+            <option value="Digital Marketing"> Digital Marketing </option required>
+        </select>
+        <br>
+        <p>Select A batch*:</p required>
+        <select name="batch" id="batch" required>
+            <option value="#">--Select Batch--</option required>
+            <option value="Batch 07">Batch 07</option required>
+            <option value="Batch 08">Batch 08</option required>
+            <option value="Batch 09">Batch 09</option required>
+            <option value="Batch 10">Batch 10</option required>
+        </select>
+        <br><br>
+        <section>
+        Your Name*: <br><br> <input type="text" name="Yname" id="Yname" placeholder="Enter Your Name" maxlength="18" required>
+        <p>Max character allowed:18</p>
+        <hr>
+        <br>
+        Date Of Birth*:<input type="date" name="date" id="date" required>
+        <br><br>
+        Your Age*: <input type="number" name="Age" id="Age" required>
+        <br><br>
+        Gender*:
+        <label for="Male">
+    <input type="radio" name="gender" id="Male" required>       Male: 
+    </label>
+    <label for="Female">
+    <input type="radio" name="gender" id="Female" required>   Female: 
+    </label>
+    <br><br>
+    CNIC/B_Form*: <input type="number" name="CNIC" id="CNIC" placeholder="e.g: 42401-12085009-1*" required>
+    <p>e.g: 42401-12085009-1</p>
+    <hr>
+    Father's Name*: <input type="text" name="Fname" id="Fname" placeholder="Father's Name*" required>
+    <br><br>
+    Father's / Guardian's CNIC*: <input type="number" name="Father's CNIC" id="Father's CNIC" placeholder="e.g: 42401-12085009-1*" required>
+    <p>e.g: 42401-12085009-1</p>
+    Parmenent Adress*: <textarea name="adress" id="adress" cols="70%" rows="5%" maxlength="100" placeholder="Full and Permenent Adress*"></textarea>
+    <br><br>
+    Cell Number*: <input type="number" name="Cell number" id="cell number" placeholder="Phone Number*" required>
+    <br><br>
+    Email*: <input type="email" name="Email" id="Email" placeholder="Your Email*" required>
+    <p>Provide a valid accessible email that we will use to contact you</p>
+    <hr>
+    <fieldset>
+        <legend>
+    <h3><u> Last Qualification </u></h3>
+</legend>
+    <label for="none">
+<input type="radio" name="Qualification" id="none" required>   None 
+   </label>
+    <label for="Matric">
+<input type="radio" name="Qualification" id="Matric" required>    Matric
+   </label>
+    <label for="Intermediate">
+<input type="radio" name="Qualification" id="Intermediate" required>    Intermediate
+   </label>
+    <label for="Bachelor">
+<input type="radio" name="Qualification" id="Bachelor" required>    Bechelor
+   </label>
+   <label for="Master">
+<input type="radio" name="Qualification" id="Master" required>    Master
+   </label>
+   <label for="Phd">
+<input type="radio" name="Qualification" id="Phd" required>    Phd
+   </label>
+</fieldset>
+    </section>
+    <section>
+        <p> 
+            uploud your recent image (face front,without glasses and with a singal-colored background)
+        </p>
+        <input type="file" name="file" id="Choose file" placeholder="choose file" required>
+        <br>
+        only png or jpg with size  &lt 1 mb is allowed
+    </section>
+    <h4> Availibility*</h4>
+    <p>
+        Drag and drop Class timings mentioned below as per your availibility and priority. 
+    </p>
+    <table style="box-shadow:5px 10px #525050;">
+        <thead>
+            <th colspan="1/2">
+        Priority # 1
+            </th>
+        </thead>
+        <tbody>
+        <tr>
+            <td> Tuesday , Thursday , Saturday </td>
+        </tr>
+        <tr>
+            <td> 11am to 01pm</td>
+        </tr>
+    </tbody>
+    </table>
+    <h4> Declaration Undertaking*</h4>
+    <section>
+    <pre>
+     1.    I hereby,solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge.further,I will abide by my all the establish and future regulation and policies of SMIT.
+    </pre>
+    <pre>
+     2.    I hereby accept the responsibilities of the good conduct and guarantee that I will not be involved in any other activity,polical or ethic, but learning during my stay in the program.
+    </pre>
+    <pre>
+     3.    Defiance will render my admission cancelled at any point in time.
+    </pre>
+    <pre>
+     4.    upon completion of course,I will complete the required project by SMIT.
+    </pre>
+</section>
+    <label for="I agree with the above terms" required>
+<input type="checkbox" name="I agree with the above terms" id="I agree with the above terms">I agree with the above terms
+</label>
+<br><br>
+<input type="submit" value="Submit" style="background-color:lightseagreen;" required>
+    </form>
+</body>
+</html>
